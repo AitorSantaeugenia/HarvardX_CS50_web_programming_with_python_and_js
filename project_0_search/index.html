@@ -8,22 +8,38 @@
 </head>
 
 <body>
-    <div></div>
-    <div></div>
-    <div>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
-    </div>
-    <div></div>
-    <div></div>
+    <header id="header">
+        <a href="">Images</a>
+        <a href="">Advanced search</a>
+    </header>
 
+    <main id="mainContainer">
+        <div class="containerLogo">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+                alt="Google Logo">
+        </div>
+
+        <div class="containerSearch">
+            <div class="containerForm">
+                <div class="contInput">
+                    <form action="https://google.com/search">
+                        <input type="text" name="q" class="mainSearch">
+                        <input type="submit" value="Google Search" class="btn">
+                        <input type="submit" value="I'm Feeling Lucky" class="btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="contInfoLang">
+            <p>
+                Google offered in: XXXX XXXX XXXX XXXX
+            </p>
+        </div>
+
+    </main>
+    <footer id="footer"></footer>
 </body>
 
-</html>
+<script src="https://kit.fontawesome.com/7ad6a58bfb.js" crossorigin="anonymous"></script>
 
-<!--
-1- Responsive
-2- Use SASS maybe
--->
+</html>
