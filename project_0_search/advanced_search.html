@@ -40,10 +40,13 @@
             </div>
 
             <div class="advancedSearchInputs">
-                <input type="text" name="q" class="advancedMainSearch" id="exactWord">
-                <input type="text" name="q" class="advancedMainSearch" id="exactWordOrPhrase">
-                <input type="text" name="q" class="advancedMainSearch" id="anyOfTheseWords">
-                <input type="text" name="q" class="advancedMainSearch" id="noneOfTheseWords">
+                <form action="https://www.google.com/search">
+                    <input type="text" name="as_q" class="advancedMainSearch" id="exactWord">
+                    <input type="text" name="as_epq" class="advancedMainSearch" id="exactWordOrPhrase">
+                    <input type="text" name="as_oq" class="advancedMainSearch" id="anyOfTheseWords">
+                    <input type="text" name="as_eq" class="advancedMainSearch" id="noneOfTheseWords">
+                    <input type="submit" value="Advanced Search" class="btn2">
+                </form>
             </div>
 
             <div class="advancedSearchTextRight">
