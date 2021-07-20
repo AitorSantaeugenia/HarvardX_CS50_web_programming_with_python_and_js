@@ -249,3 +249,28 @@ margin-left:1%;
     width: 100%;
     
 }
+
+.btn2{
+    color:#fff;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    height: 30px;
+    min-width: 120px;
+    max-width: 120px;
+    padding:0 8px 0 8px;
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 2px;
+    cursor:default;
+    text-decoration: none;
+}
+
+.btn2:hover{
+    border: 1px solid #555;
+    background-color: #3984fc;
+}
+
+.btn2:active{
+    border: 1px solid #fff;
+}
