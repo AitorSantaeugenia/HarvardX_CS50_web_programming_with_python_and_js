@@ -19,20 +19,41 @@
             <a href="./image_search.html">Images</a>
         </div>
 
+
         <h1 class="advancedSearchText">Advanced Search</h1>
         <div class="hrLine"></div>
 
+        <div class="containerTextToHeaderDiv">
+            <div class="textToHeaderDiv">
+                <span class="textoHeader">Find pages with...</span>
+            </div>
+            <div class="textToHeaderDivLeft">
+                <span class="textoHeaderLeft">To do this in the search box.</span>
+            </div>
+        </div>
         <div id="advancedSearchContainer">
             <div class="advancedSearchTextLeft">
-                sadasdasd
+                <div class="advancedLabel"><label for="exactWord">all these words:</label></div>
+                <div class="advancedLabel"><label for="exactWordOrPhrase">the exact word or phrase:</label></div>
+                <div class="advancedLabel"><label for="anyOfTheseWords">any of these words:</label></div>
+                <div class="advancedLabel"><label for="noneOfTheseWords">none of these words:</label></div>
             </div>
 
-            <div class="advancedSearchInputs" style="border-style: dotted;">
-                asdasd
+            <div class="advancedSearchInputs">
+                <input type="text" name="q" class="advancedMainSearch" id="exactWord">
+                <input type="text" name="q" class="advancedMainSearch" id="exactWordOrPhrase">
+                <input type="text" name="q" class="advancedMainSearch" id="anyOfTheseWords">
+                <input type="text" name="q" class="advancedMainSearch" id="noneOfTheseWords">
             </div>
 
-            <div class="advancedSearchTextRight" style="border-style: dotted;">
-                asdasda
+            <div class="advancedSearchTextRight">
+                <div class="advancedLabelRight"><label>Type the important words: tri-colour rat terrier</label>
+                </div>
+                <div class="advancedLabelRight"><label>Put exact words in quotes: "rat terrier"</label></div>
+                <div class="advancedLabelRight"><label>Type OR between all the words you want: miniature OR
+                        standard</label></div>
+                <div class="advancedLabelRight"><label>Put a minus sign just before words that you don't want:
+                        -rodent, -"Jack Russell"</label></div>
             </div>
         </div>
 
