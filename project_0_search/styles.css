@@ -28,7 +28,7 @@ body{
 .goToIndex{
    float:left;
    top: 0%;
-   margin: 2px 0 0 3%;
+   margin: 2px 0 0 1%;
 }
 
 .hrLine{
@@ -41,7 +41,8 @@ body{
    font-family: Arial, sans-serif;
    color:#d93025;
    font-size: 20px;
-   margin-left:35px;
+   margin-left:3%;
+   padding: 1%;
    font-style: normal;
    font-weight: 400;
 }
@@ -168,19 +169,83 @@ body{
     margin-top:-1%;
 }
 
+.containerTextToHeaderDiv{
+display:flex;
+}
+
+.textToHeaderDiv{
+    text-align: left;
+    margin-left: 4%;
+    margin-top:7px;
+    color: #333;
+    flex:1;
+}
+
+.textToHeaderDivLeft{
+    text-align: left;
+    margin-top:7px;
+    margin-left: 8%;
+    color: #333;
+    flex:1 auto;
+}
+
+.textoHeaderLeft{
+    font-size: 13px;
+    font-weight: 700;
+    color: #777;
+}
+
 #advancedSearchContainer{
     display:flex;
     flex-direction: row;
+    max-width: 85vw;
+    height: 100vh;
+    padding: 20px 0 0 30px;
+    margin-left: 2%;
 }
 
 .advancedSearchTextLeft{
-    width: 200px;
+    text-align: left;
+    font-size: 13px;
+    line-height: 16px;
+    margin-right: 2%;
 }
 
 .advancedSearchInputs{
-    width: 200px;
+flex:1;
 }
 
 .advancedSearchTextRight{
-    width: 200px;
+flex:1;
+margin-left:1%;
+}
+
+.advancedMainSearch{
+    height: 28px;
+    width: 100%;
+    margin: 4px 0 11px 0;
+    border-top: 1px solid #c0c0c0;
+    border: 1px solid #d9d9d9;
+
+}
+
+.advancedLabel{
+    height: 42px;
+    line-height: 38px;
+}
+
+.advancedLabelRight{
+    height: 42px;
+    line-height: 32px;
+    color: #555;
+    font-size: 11px;
+    float:left;
+    text-align: left;
+    width: 100%;
+
+}
+
+.advancedLabelRight > label{
+    width: 100%;
+    
 }
