@@ -25,6 +25,27 @@ body{
     padding-left:15px;
 }
 
+.goToIndex{
+   float:left;
+   top: 0%;
+   margin: 2px 0 0 3%;
+}
+
+.hrLine{
+    border-bottom: 1px solid #ebebeb;
+
+}
+
+.advancedSearchText{
+   text-align: left;
+   font-family: Arial, sans-serif;
+   color:#d93025;
+   font-size: 20px;
+   margin-left:35px;
+   font-style: normal;
+   font-weight: 400;
+}
+
 #header > a:hover{
     text-decoration-color:  rgba(0, 0, 0, 0.87);
     text-decoration-line: underline;
@@ -145,4 +166,21 @@ body{
     font: 16px/16px roboto-regular, arial, sans-serif;
     display: block;
     margin-top:-1%;
+}
+
+#advancedSearchContainer{
+    display:flex;
+    flex-direction: row;
+}
+
+.advancedSearchTextLeft{
+    width: 200px;
+}
+
+.advancedSearchInputs{
+    width: 200px;
+}
+
+.advancedSearchTextRight{
+    width: 200px;
 }
