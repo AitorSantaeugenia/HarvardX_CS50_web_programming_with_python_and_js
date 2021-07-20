@@ -2,31 +2,57 @@
 <html lang="en">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,,height=device-height, initial-scale=1.0">
+    <link rel="icon" type="image/png"
+        href="https://www.freepngimg.com/download/google/67060-play-photos-search-google-account-png-file-hd.png" />
     <link rel="stylesheet" href="styles.css">
-    <title>Google Search</title>
+    <title>Google images</title>
 </head>
 
 <body>
-    <header>
-        <a href="">Images</a>
-        <a href="">Advanced search</a>
-    </header>
-    <div></div>
-    <div>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
-    </div>
-    <div></div>
-    <div></div>
+    <div id="mainContainer">
+        <div id="header">
+            <a href="./index.html">Google search</a>
+            <a href="./advanced_search.html">Advanced search</a>
+        </div>
 
+
+        <div class="containerLogo">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+                alt="Google Logo" />
+            <span class="textImages">images</span>
+        </div>
+
+        <div class="containerSearchImage">
+            <div class="containerForm">
+                <div class="contInput">
+                    <form action="https://google.com/search">
+                        <input type="text" name="q" class="mainSearch">
+                        <input type="submit" value="Google Search" class="btn">
+                        <input type="submit" value="I'm Feeling Lucky" class="btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="wrapFooter">
+                <a
+                    href="https://about.google/?utm_source=google-ES&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a>
+                <a
+                    href="https://ads.google.com/intl/en_es/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+                <a
+                    href="https://smallbusiness.withgoogle.com/intl/es_es/?subid=es-es-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=es-es-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u#!/">Business</a>
+                <a href="https://www.google.com/search/howsearchworks/?fg=1">How Search works</a>
+            </div>
+            <div class="wrapFooter">
+                <a href="https://policies.google.com/privacy?hl=en-ES&fg=1">Privacy</a>
+                <a href="https://policies.google.com/terms?hl=en-ES&fg=1">Terms</a>
+                <a href="">Settings</a>
+            </div>
+        </div>
+    </div>
 </body>
 
-</html>
+<script src="https://kit.fontawesome.com/7ad6a58bfb.js" crossorigin="anonymous"></script>
 
-<!--
-1- Responsive
-2- Use SASS maybe
--->
+</html>
