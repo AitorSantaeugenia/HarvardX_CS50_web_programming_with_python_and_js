@@ -40,11 +40,12 @@ body{
  }
 
  .containerLogo{
-     flex:1;
+     flex:0;
  }
 
  .containerSearch{
      flex:3;
+     margin-top: 2%;
  }
 
 .containerForm{
@@ -88,6 +89,14 @@ body{
     
 }
 
+/* Just for image search page */
+
+.containerSearchImage{
+    flex:3;
+    margin-top: 1%;
+}
+
+
 .btn{
      color: rgb(60, 64, 67);
      border-radius: 4px;
@@ -129,4 +138,11 @@ body{
 
 .wrapFooter{
     padding: 0 20px;
+}
+
+.textImages{
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    display: block;
+    margin-top:-1%;
 }
