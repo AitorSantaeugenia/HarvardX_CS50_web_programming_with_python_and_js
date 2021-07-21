@@ -103,7 +103,15 @@ body {
 	height: 34px;
 	width: 90%;
 	border: none;
-	margin: 4px 0 11px 4%;
+	margin: 4px 0 11px 1%;
+	outline: none;
+}
+
+.contInput > form > .mainSearchSearch {
+	height: 34px;
+	width: 80%;
+	border: none;
+	margin: 4px 0 11px 1%;
 	outline: none;
 }
 
@@ -159,7 +167,10 @@ body {
 	color: #4285f4;
 	font: 16px/16px roboto-regular, arial, sans-serif;
 	display: block;
-	margin-top: -1%;
+	margin-top: -20px;
+	margin-left: 215px;
+	cursor:default;
+
 }
 
 .containerTextToHeaderDiv {
@@ -272,6 +283,18 @@ body {
 	border: 1px solid #fff;
 }
 
+.iconSearch{
+	color:rgba(158, 158, 158, 0.54);
+	margin-left:12px;
+	font-size: 14px;
+}
+
+.iconSearchSearch{
+	color:#3079ed;
+	margin-right:5px;
+	cursor: pointer;
+}
+
 /* Media queries */
 
 @media (max-width: 355px) {
@@ -288,6 +311,12 @@ body {
 	}
 }
 
+@media (max-width: 379px) {
+	.contInput > form > .mainSearch {
+		width: 80%;
+	}
+}
+
 @media (max-width: 444px) {
 	#footer > div > a {
 		display: block;
@@ -295,6 +324,14 @@ body {
 		border-bottom: 1px solid rgb(192, 187, 187);
 	}
 }
+
+@media (max-width: 526px) {
+	.iconSearch {
+		margin-left:0px !important;
+
+	}
+}
+
 
 @media (max-width: 720px) {
 	#footer {
